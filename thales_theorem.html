@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin: 0;
+            background-color: #1e1e1e;
+            color: #f0f0f0;
+        }
+        h1 {
+            font-size: 24px;
+            color: #ffa726;
+            margin-top: 20px;
+        }
+        .content-container {
+            max-width: 800px;
+            padding: 20px;
+            background-color: #2e2e2e;
+            border-radius: 8px;
+            margin-top: 20px;
+            text-align: center;
+        }
+        .formula {
+            font-size: 20px;
+            color: #ffffff;
+            margin: 10px 0;
+        }
+        .button-link {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #ffffff;
+            background-color: #ffa726;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .button-link:hover {
+            background-color: #ffb74d;
+        }
+    </style>
+</head>
+<body>
+    <h1>Fales theorem</h1>
+
+    <div class="section">
+        <h2>Теорема Фалеса</h2>
+        <div class="formula">
+            Если на одной из сторон треугольника проведена прямая, параллельная другой стороне, 
+            то она отсекает на двух других сторонах треугольника пропорциональные отрезки.
+        </div>
+        <div class="formula">
+            Если <em>DE</em> параллельна <em>BC</em> в треугольнике <em>ABC</em>, то:<br>
+            <strong>AD / DB = AE / EC</strong>
+        </div>
+        <div class="svg-container">
+            <svg width="200" height="200" viewBox="0 0 200 200">
+                <!-- Треугольник ABC -->
+                <polygon points="50,150 150,150 100,50" fill="none" stroke="#ffa726" stroke-width="2"/>
+                <!-- Линия DE -->
+                <line x1="70" y1="100" x2="130" y2="100" stroke="#66bb6a" stroke-width="2"/>
+                <!-- Точки -->
+                <text x="45" y="155" fill="#ffffff">A</text>
+                <text x="155" y="155" fill="#ffffff">B</text>
+                <text x="95" y="45" fill="#ffffff">C</text>
+                <text x="65" y="105" fill="#ffffff">D</text>
+                <text x="135" y="105" fill="#ffffff">E</text>
+            </svg>
+        </div>
+    </div>
+
+
+    <!-- Back Button -->
+    <a href="Untitled.html" class="button-link">Back to Home</a>
+</body>
+</html>

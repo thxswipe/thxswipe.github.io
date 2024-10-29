@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Трапеция</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000000; /* Чёрный фон */
+            color: #FFFFFF; /* Белый текст */
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #FF5722; /* Оранжевый текст для заголовков */
+        }
+        .trapezium {
+            width: 300px;
+            height: 200px;
+            border-top: 50px solid #2196F3;
+            border-left: 50px solid transparent;
+            border-right: 50px solid transparent;
+            position: relative;
+            margin: 20px auto;
+        }
+        .trapezium:after {
+            content: "";
+            width: 100%;
+            height: 150px;
+            background-color: #FFEB3B; /* Цвет трапеции */
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+        .line {
+            position: absolute;
+            top: 90px; /* Положение средней линии */
+            left: 50px;
+            width: 200px; /* Длина средней линии */
+            border-bottom: 2px dashed red;
+            text-align: center;
+            font-weight: bold;
+        }
+        .properties {
+            margin-top: 20px;
+            background-color: #2e2e2e; /* Цвет фона для блока свойств */
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .button-link {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #ffffff;
+            background-color: #ffa726;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Трапеция</h1>
+
+    <div class="trapezium">
+        <div class="line">Средняя линия</div>
+    </div>
+
+    <div class="properties">
+        <h2>Определение</h2>
+        <p>Трапеция — это параллелограмм, у которого одна пара противоположных сторон параллельна.</p>
+
+        <h2>Свойства трапеции</h2>
+        <ul>
+            <li>Сумма углов трапеции равна 360°.</li>
+            <li>Параллельные стороны называются основаниями.</li>
+            <li>Сумма длин оснований равна средней линии.</li>
+            <li>Средняя линия трапеции равна половине суммы оснований: <br> <strong>М = (a + b) / 2</strong>, где <strong>a</strong> и <strong>b</strong> — длины оснований.</li>
+            <li>Площадь трапеции вычисляется по формуле: <br> <strong>S = (a + b) * h / 2</strong>, где <strong>h</strong> — высота трапеции.</li>
+        </ul>
+
+        <h2>Доказательства свойств</h2>
+        <h3>1. Сумма углов трапеции равна 360°.</h3>
+        <p>Сумма углов одного из оснований равна 180°, так как они составляют линейную пару с углами на другом основании. Таким образом, сумма всех углов: <strong>180° + 180° = 360°.</strong></p>
+
+        <h3>2. Средняя линия трапеции.</h3>
+        <p>Средняя линия соединяет середины боковых сторон и параллельна основаниям. Длина средней линии равна половине суммы оснований: <strong>M = (a + b) / 2.</strong></p>
+
+        <h3>3. Площадь трапеции.</h3>
+        <p>Площадь трапеции равна половине произведения суммы оснований на высоту: <strong>S = (a + b) * h / 2.</strong></p>
+
+    </div>
+
+    <a href="Untitled.html" class="button-link">Back to Home</a>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin: 0;
+            background-color: #1e1e1e;
+            color: #f0f0f0;
+        }
+        h1 {
+            font-size: 24px;
+            color: #ffa726;
+            margin-top: 20px;
+        }
+        .content-container {
+            max-width: 800px;
+            padding: 20px;
+            background-color: #2e2e2e;
+            border-radius: 8px;
+            margin-top: 20px;
+            text-align: center;
+        }
+        .formula {
+            font-size: 20px;
+            color: #ffffff;
+            margin: 10px 0;
+        }
+        .button-link {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #ffffff;
+            background-color: #ffa726;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .button-link:hover {
+            background-color: #ffb74d;
+        }
+    </style>
+</head>
+<body>
+    <h1>parallelogram</h1>
+
+    <div class="section">
+        <h2>Параллелограмм</h2>
+        <div class="formula">Параллелограмм — это четырехугольник, у которого противоположные стороны попарно параллельны.</div>
+        <div class="formula"><strong>Свойства параллелограмма:</strong></div>
+        <ul style="text-align: left;">
+            <li>Противоположные стороны равны: <em>AB = CD</em> и <em>AD = BC</em>.</li>
+            <li>Противоположные углы равны.</li>
+            <li>Диагонали пересекаются и делятся пополам.</li>
+        </ul>
+
+        <div class="svg-container">
+            <svg width="200" height="200" viewBox="0 0 200 200">
+                <!-- Параллелограмм ABCD -->
+                <polygon points="40,160 160,160 140,80 20,80" fill="none" stroke="#ffa726" stroke-width="2"/>
+                <!-- Диагонали -->
+                <line x1="40" y1="160" x2="140" y2="80" stroke="#66bb6a" stroke-width="2" stroke-dasharray="4"/>
+                <line x1="20" y1="80" x2="160" y2="160" stroke="#66bb6a" stroke-width="2" stroke-dasharray="4"/>
+                <!-- Точки -->
+                <text x="35" y="170" fill="#ffffff">A</text>
+                <text x="165" y="170" fill="#ffffff">B</text>
+                <text x="145" y="75" fill="#ffffff">C</text>
+                <text x="15" y="75" fill="#ffffff">D</text>
+                <text x="95" y="120" fill="#ffffff">O</text>
+            </svg>
+        </div>
+
+        <!-- Доказательство свойств параллелограмма -->
+        <div class="formula"><strong>Доказательство свойств:</strong></div>
+        <ol style="text-align: left;">
+            <li><strong>Противоположные стороны равны.</strong> В параллелограмме <em>ABCD</em> стороны <em>AB</em> и <em>CD</em> параллельны, как и <em>AD</em> и <em>BC</em>. Поскольку они параллельны и равны по длине, они равны друг другу.</li>
+            <li><strong>Противоположные углы равны.</strong> В параллелограмме противоположные углы равны, поскольку смежные углы при параллельных прямых и секущей являются равными.</li>
+            <li><strong>Диагонали пересекаются и делятся пополам.</strong> Диагонали <em>AC</em> и <em>BD</em> пересекаются в точке <em>O</em>, деля друг друга на равные части, так как параллелограмм обладает симметрией относительно своей середины.</li>
+        </ol>
+    </div>
+
+
+
+    <!-- Back Button -->
+    <a href="Untitled.html" class="button-link">Back to Home</a>
+</body>
+</html>
