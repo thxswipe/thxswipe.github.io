@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>triangles</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin: 0;
+            background-color: #1e1e1e;
+            color: #f0f0f0;
+        }
+        h1 {
+            font-size: 24px;
+            color: #ffa726;
+            margin-top: 20px;
+        }
+        .content-container {
+            max-width: 800px;
+            padding: 20px;
+            background-color: #2e2e2e;
+            border-radius: 8px;
+            margin-top: 20px;
+            text-align: center;
+        }
+        .formula {
+            font-size: 20px;
+            color: #ffffff;
+            margin: 10px 0;
+        }
+        .button-link {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #ffffff;
+            background-color: #ffa726;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .button-link:hover {
+            background-color: #ffb74d;
+        }
+    </style>
+</head>
+<body>
+    <h1>Triangles</h1>
+
+    
+  
+  <style>
+    body {
+      background-color: #000;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 20px;
+    }
+    h1 {
+      color: #ffa726;
+    }
+    .triangle-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+      margin-top: 40px;
+    }
+    .triangle {
+      position: relative;
+      width: 0;
+      height: 0;
+    }
+
+    .label {
+      margin-top: 10px;
+      color: #ffa726;
+      font-size: 18px;
+    }
+
+    /* Обычный треугольник */
+    .triangle.general {
+      border-left: 60px solid transparent;
+      border-right: 60px solid transparent;
+      border-bottom: 100px solid white;
+    }
+
+    /* Прямоугольный треугольник */
+    .triangle.right {
+      width: 0;
+      height: 0;
+      border-bottom: 100px solid white;
+      border-right: 100px solid transparent;
+    }
+
+    /* Равносторонний треугольник */
+    .triangle.equilateral {
+      border-left: 60px solid transparent;
+      border-right: 60px solid transparent;
+      border-bottom: 104px solid white;
+    }
+  </style>
+</head>
+<body>
+  <h1>Разные типы треугольников</h1>
+
+  <div class="triangle-container">
+    <div>
+      <div class="triangle general"></div>
+      <div class="label">Обычный треугольник</div>
+      <strong>Чтобы найти площадь треугольника нужно умножить высоту на сторону на которую она проведена. S = h * hª</strong>
+    </div>
+
+    <div>
+      <div class="triangle right"></div>
+      <div class="label">Прямоугольный треугольник</div>
+      <strong>Чтобы найти площадь прямоугольного треугольника нужно умножить его катеты, и поделить на два. (a + b)/2</strong>
+    </div>
+
+    <div>
+      <div class="triangle equilateral"></div>
+      <div class="label">Равносторонний треугольник</div>
+    </div>
+    <strong>Чтобы найти площадь уже равностороннего треугольника, нужно умножить квадрат его стороны на корень из трех и поделить на 4. (a^2√3)/4</strong>
+  </div>
+</body>
+</html>
+
+    <!-- Back Button -->
+    <a href="Untitled.html" class="button-link">Back to Home</a>
+</body>
+</html>
